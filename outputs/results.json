@@ -1,0 +1,56 @@
+{
+  "players": 90189,
+  "group_sizes": {
+    "gate_40": 45489,
+    "gate_30": 44700
+  },
+  "srm_p_value": 0.008607987810836262,
+  "dropped_outlier_rounds": 49854,
+  "players_after_cleaning": 90188,
+  "never_played_pct": 4.4,
+  "by_group": {
+    "gate_30": {
+      "players": 44699,
+      "d1": 0.4482,
+      "d7": 0.1902,
+      "median_rounds": 17.0
+    },
+    "gate_40": {
+      "players": 45489,
+      "d1": 0.4423,
+      "d7": 0.182,
+      "median_rounds": 16.0
+    }
+  },
+  "retention_1": {
+    "gate_30_pct": 44.82,
+    "gate_40_pct": 44.23,
+    "diff_pp": 0.59,
+    "ci95_pp": [
+      -0.07,
+      1.24
+    ],
+    "p_value": 0.0739,
+    "prob_gate30_better": 0.963
+  },
+  "retention_7": {
+    "gate_30_pct": 19.02,
+    "gate_40_pct": 18.2,
+    "diff_pp": 0.82,
+    "ci95_pp": [
+      0.31,
+      1.33
+    ],
+    "p_value": 0.0016,
+    "prob_gate30_better": 0.999
+  },
+  "rounds_mannwhitney_p": 0.0509,
+  "share_reaching_rounds": {
+    "1": 95.6,
+    "10": 62.0,
+    "30": 36.9,
+    "40": 30.4,
+    "100": 13.9
+  },
+  "d7_players_lost_per_100k_installs": 820
+}
